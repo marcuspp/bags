@@ -13,7 +13,7 @@ created_at = models.DateTimeField(auto_now_add=True)
 modified_at = models.DateTimeField(auto_now=True)
 ```
 
-- For retrieving the user is more tricky but using a package such as django-cuser makes it alot simpler
+- To retrieve the user who is making the change is more tricky but using a package such as django-cuser makes it alot simpler
 ```
 created_by = CurrentUserField(add_only=True)
 modified_by = CurrentUserField()
