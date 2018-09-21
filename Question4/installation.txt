@@ -1,0 +1,4 @@
+To install and run
+
+pip install -r requirements.txt
+./answer_4.py https://www.google.co.uk
